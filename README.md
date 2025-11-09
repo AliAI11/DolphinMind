@@ -1,2 +1,2 @@
 # DolphinMind
-**DolphinMind**: Extending context windows for small language models
+Extending context windows for small language models
