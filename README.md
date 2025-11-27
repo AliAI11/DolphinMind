@@ -16,15 +16,6 @@ DolphinMind lets **1–7B parameter models** answer questions from **100k+ token
 **What we learned:** More context isn’t always better  
 SmolLM3 @ 128k context → **0.132 ROUGE-L** (14% worse than 64k)
 
-## Quick Start – Google Colab (no setup)
-
-Just click and run:
-
-1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/DolphinMind/blob/main/01_load_model_and_profile.ipynb) **01_load_model_and_profile.ipynb** – Load Qwen2.5-3B (4-bit) and test
-2. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/DolphinMind/blob/main/02_baseline_comparison.ipynb) **02_baseline_comparison.ipynb** – Compare 3 retrieval methods
-3. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/DolphinMind/blob/main/03_rlm_and_more_methods.ipynb) **03_rlm_and_more_methods.ipynb** – Tool-calling, map-reduce, hierarchical
-4. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/DolphinMind/blob/main/04_final_evaluation.ipynb) **04_final_evaluation.ipynb** – Full analysis & results
-
 ## How DolphinMind Works (4-stage pipeline)
 
 ```mermaid
